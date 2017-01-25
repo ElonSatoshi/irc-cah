@@ -1,7 +1,8 @@
 [
   {
     "type": "Question",
-    "value": "After Billy Mays died, he sold God %s.",
+    "__value": "After Billy Mays died, he sold God %s.",
+    "value": "Billy Mays stops living prior to auctioning %s off to God.",
     "keep": "Yes",
     "draw": 0,
     "pick": 1,
@@ -9,7 +10,8 @@
   },
   {
     "type": "Question",
-    "value": "Chili's special tonight: %s with a side of %s.",
+    "__value": "Chili's special tonight: %s with a side of %s.",
+    "value": "Chili's main dish for tonight: %s with a companion of %s.",
     "keep": "Yes",
     "draw": 1,
     "pick": 2,
@@ -17,7 +19,8 @@
   },
   {
     "type": "Question",
-    "value": "Instead of endorsing Jell-O Pudding Pops, Bill Cosby now endorses %s.",
+    "__value": "Instead of endorsing Jell-O Pudding Pops, Bill Cosby now endorses %s.",
+    "value": "Contrary to favoring Pudding Pops prior to now, Bill Cosby is now fond of %s.",
     "keep": "Yes",
     "draw": 0,
     "pick": 1,
@@ -25,7 +28,8 @@
   },
   {
     "type": "Question",
-    "value": "Mr. Owl, how many licks does it take to get to the center of %s?",
+    "__value": "Mr. Owl, how many licks does it take to get to the center of %s?",
+    "value": "Mr. Owl, how many licks must you apply to find that hub of %s?",
     "keep": "Yes",
     "draw": 0,
     "pick": 1,
@@ -33,15 +37,8 @@
   },
   {
     "type": "Question",
-    "value": "Sizzler's special tonight: %s with a side of %s.",
-    "keep": "Yes",
-    "draw": 1,
-    "pick": 2,
-    "source": "BGG Suggestions"
-  },
-  {
-    "type": "Question",
-    "value": "You're listening to KB969, %s radio!",
+    "__value": "You're listening to KB969, %s radio!",
+    "value": "This audio now playing is KB969, %s radio!",
     "keep": "Yes",
     "draw": 0,
     "pick": 1,
